@@ -3,13 +3,22 @@
     "value": 3
   },
   "vmSize": {
-    "value": "Standard_D1_v2"
+    "value": "H8m"
   },
   "adminUsername": {
     "value": "datastax"
   },
   "adminPassword": {
-    "value": "foo123!"
+    "value": "foobar!2@"
+  },
+  "location":{
+    "value": "southcentralus"
+  },
+  "vnetName": {
+    "value": "SouthNet"
+  },
+  "subnetName": {
+    "value": "CDHNet"
   }
 }
 
