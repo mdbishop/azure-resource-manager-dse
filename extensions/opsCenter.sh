@@ -22,3 +22,7 @@ unzip master.zip
 cd install-datastax-ubuntu-master/bin
 
 ./opscenter.sh $cloud_type $seed_node_dns_name
+
+apt-get update
+apt-get install -y htop
+apt-get upgrade -y
